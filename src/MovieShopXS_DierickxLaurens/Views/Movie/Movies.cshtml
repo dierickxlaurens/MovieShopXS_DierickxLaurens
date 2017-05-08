@@ -1,0 +1,32 @@
+﻿@model ICollection<MovieShopXS_DierickxLaurens.ModelView.MovieView>
+
+@foreach (var movie in @Model)
+{
+    <form asp-controller="Movie" asp-action="Update">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="~/images/@movie.Image" alt="@movie.Image" />
+            </div>
+            <div class="col-lg-8">
+                <h3>@movie.Titel</h3>
+                <h4>@movie.Jaar</h4>
+                <p> @movie.Beschrijving</p>
+                <h4>The Director</h4>
+                <p>@movie.Regisseur</p>
+                <h4>actors</h4>
+                @foreach (var acteur in @movie.Acteurs)
+                {
+                    <p>@acteur.Naam</p>
+
+                }
+                <h4>how much is this rated</h4>
+                <div class="row">
+                    <p>@movie.Rating</p>
+                    <input type="button" class="glyphicon glyphicon-chevron-up"/>
+                    <input type="button" class="glyphicon glyphicon-chevron-down"/>
+                </div>
+            </div>
+        </div>
+    </form>
+
+}

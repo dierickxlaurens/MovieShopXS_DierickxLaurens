@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5D1249BE-1277-4F96-87A7-742A1B0E97D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F2CAA1FB-E358-4996-A49A-4280D208AEE4}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MovieShopXS_DierickxLaurens", "src\MovieShopXS_DierickxLaurens\MovieShopXS_DierickxLaurens.xproj", "{B471C9F0-5B0C-49A9-8FA0-421F5669640C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "resources", "resources", "{2973186B-5390-4954-AA7A-89239FD83B15}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\DOTNETToets-master\DOTNETToets-master\Images\movies\Ghost in the Shell.jpg = ..\..\..\..\Downloads\DOTNETToets-master\DOTNETToets-master\Images\movies\Ghost in the Shell.jpg
+		..\..\..\..\Downloads\DOTNETToets-master\DOTNETToets-master\Images\movies\Minions.jpg = ..\..\..\..\Downloads\DOTNETToets-master\DOTNETToets-master\Images\movies\Minions.jpg
+		..\..\..\..\Downloads\DOTNETToets-master\DOTNETToets-master\Images\movies\Sing.jpg = ..\..\..\..\Downloads\DOTNETToets-master\DOTNETToets-master\Images\movies\Sing.jpg
+		..\..\..\..\Downloads\DOTNETToets-master\DOTNETToets-master\Images\movies\Split.jpg = ..\..\..\..\Downloads\DOTNETToets-master\DOTNETToets-master\Images\movies\Split.jpg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B471C9F0-5B0C-49A9-8FA0-421F5669640C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B471C9F0-5B0C-49A9-8FA0-421F5669640C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B471C9F0-5B0C-49A9-8FA0-421F5669640C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B471C9F0-5B0C-49A9-8FA0-421F5669640C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B471C9F0-5B0C-49A9-8FA0-421F5669640C} = {5D1249BE-1277-4F96-87A7-742A1B0E97D6}
+		{2973186B-5390-4954-AA7A-89239FD83B15} = {5D1249BE-1277-4F96-87A7-742A1B0E97D6}
+	EndGlobalSection
+EndGlobal
