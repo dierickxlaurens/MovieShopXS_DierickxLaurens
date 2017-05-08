@@ -22,8 +22,9 @@
                 <h4>how much is this rated</h4>
                 <div class="row">
                     <p>@movie.Rating</p>
-                    <input type="button" class="glyphicon glyphicon-chevron-up"/>
-                    <input type="button" class="glyphicon glyphicon-chevron-down"/>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <a href="/Update/@movie.MovieId/Rating/Up"><span class="glyphicon glyphicon-chevron-up"></span></a>
+                    <a href="/Update/@movie.MovieId/Rating/Down"><span class="glyphicon glyphicon-chevron-down"></span></a>
                 </div>
             </div>
         </div>
